@@ -43,6 +43,7 @@ class ViewController: UIViewController {
             highScoreLabel.text = "High Score : \(highScore)"
         } else{
             let newHighScore = storedHighScore as? Int
+            highScore = newHighScore!
             highScoreLabel.text = "High Score : \(newHighScore!)"
         }
         
